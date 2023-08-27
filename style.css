@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 99%;
+    height: 1800px;
+    margin-left: 1%;
+}
+h1{
+    color: #109E97;
+    margin: 20px;
+font-family: Lobster;
+display: flex;
+  justify-content: center;
+font-style: normal;
+font-weight: 400;
+}
+.rectangle-1{
+    width: 97%;
+    height: 2px;
+    border: 1px solid black;
+    background-color: black;
+}
+.book-name{
+    padding: 0;
+    margin-top: 20px;
+}
+.price{
+    display: flex;
+    margin-top: 20px;
+}
+.book-price-1{
+    color: #008000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+.book-price-2{
+    padding: 3px;
+    color: #F00;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-self: self-end;
+}
+.img-1{
+    width: 200px;
+    height: 302px;
+    margin-top: 18px;
+    background-image: url(./assets/Rectangle.svg);
+}
+.content-book{
+    width: 97%;
+    height: 256px;
+    margin-top: 5px;
+    background-color: #000;
+    text-align: right;
+}
+h5{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 44px;
+} 
+.text{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 21px;
+}
+.rectangle-2{
+    margin-top: 8px;
+    width: 97%;
+    height: 2px;
+    border: 1px solid black;
+    background-color: black; 
+}
+.table-header{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 21px 0px;
+}
+table{
+    width: 97%;
+}
+th{
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+table th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+.rectangle-3{
+    margin-top: 40px;
+    width: 97%;
+    height: 2px;
+    border: 1px solid black;
+    background-color: black; 
+}
+.section{
+    width: 97%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.section p{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 18px;
+}
+.form-header{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+form{
+    text-align: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
+}
+form label{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.name{
+    width: 185px;
+height: 21px;
+border: 2px solid #767676;
+background: #FFF;
+display: block;
+text-align: center;
+margin-left: 60px;
+}
+.question-1{
+    display: block;
+    margin: 10px;
+}
+.time{
+    width: 154px;
+height: 24px;
+border: 2px solid #767676;
+background: #FFF;
+}
+.question-3{
+    margin: 10px;
+}
+.language{
+    margin: 10px;
+    width: 93px;
+height: 19px;
+border: 1px solid #767676;
+background: #DDD;
+}
+.invisible{
+    opacity: 0;
+    margin: 10px;
+}
+textarea{
+    width: 261px;
+height: 156px;
+border: 1px solid #767676;
+background: #FFF;
+}
+button{
+    height: 50px;
+    width: 120px;
+    border: 2px solid #767676;
+    background: #109E97;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.img-2{
+    margin-top: 40px;
+    width: 300px;
+    height: 478px;
+    background-image: url(./assets/Rectangle.png);
+}
+.img-3{
+    margin-top: 40px;
+    width: 300px;
+    height: 478px;
+    background-image: url(./assets/Rectangle.png);
+    margin-right: 3%;
+}
+a{
+    color: #00E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+}
+#first{
+    margin-top: 34px;
+}
+.rectangle-4{
+    margin-top: 48px;
+    width: 97%;
+    height: 2px;
+    border: 1px solid black;
+    background-color: black;
+    margin-bottom: 10px; 
+}
+footer{
+    width: 97%;
+    height: 86px;
+    background: #109E97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
